@@ -72,6 +72,7 @@ transition: 0.5s;
 .pg-content img{
     width: 320px;
     padding: 10px;
+    transition: 1s;
 }
 
 .pg-content img:hover{
