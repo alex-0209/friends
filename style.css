@@ -26,6 +26,10 @@ header h1{
 
 }
 
+header a{
+text-decoration: none;
+}
+
 .point-red{
     color: #851b1b;
 }
