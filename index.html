@@ -9,17 +9,23 @@
                 font-family: "GABRWFFR" ;
                 src: url(font/GABRWFFR.TTF);
             }
-
         @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
         </style>
-    <link rel="font" href="font/GABRWFFR.TTF">
     <link rel="stylesheet" href="style.css">
     <title>F.R.I.E.N.D.S</title>
 </head>
 
 <body>
-    <header>
-        <a class="header" href="index.html"><h1>F<span class="point-red">.</span> R<span class="point-blue">.</span> I<span class="point-yel">.</span> E<span class="point-red">.</span> N<span class="point-blue">.</span> D<span class="point-yel">.</span> S</h1></a>
+    <header class="header">
+        <a class="header-title" href="index.html"><h1>F<span class="point-red">.</span> R<span class="point-blue">.</span> I<span class="point-yel">.</span> E<span class="point-red">.</span> N<span class="point-blue">.</span> D<span class="point-yel">.</span> S</h1></a>
+        <div class="nav">
+            <a class="nav-logo" href="contacts.html">Contacts</a>
+            <a class="nav-logo" href="funymoments.html">FunnyMoments</a>
+            <a class="nav-logo" href="forms.html">Forms</a>
+        </div>
+    </header>
+
+    <div class="container">
         <nav class="nav-header">
             <a class="nav-link" href="#chandler"><img src="img/nav/chan.png" alt="Chandler"></a>
             <a class="nav-link" href="#ross"><img src="img/nav/ross.png" alt=""></a>
@@ -28,64 +34,79 @@
             <a class="nav-link" href="#monica"><img src="img/nav/mon.png" alt=""></a>
             <a class="nav-link" href="#joey"><img src="img/nav/jo.png" alt=""></a>
         </nav>
-    </header>
-    <div class="pg-content">
-        <main>
-                <article class="backstage">
-                    <h2>BackStage</h2>
-                    <p>
-                        <img src="cnt/backst/1.jpg" alt="">
-                        <img src="cnt/backst/2.jpg" alt="">
-                        <img src="cnt/backst/3.jpg" alt="">
-                    </p>
-                </article>
-                <article>
-                    <h2 id="chandler">Chandler</h2>
-                    <p>
-                        <img src="cnt/chn/1.jpg" alt="">
-                        <img src="cnt/chn/2.jpg" alt="">
-                        <img src="cnt/chn/3.jpg" alt="" width="605px">
-                    </p>
-                </article>
-                <article>
-                    <h2 id="ross">Ross</h2>
-                    <p>
-                        <img src="cnt/rs/1.jpg" alt="">
-                        <img src="cnt/rs/2.jpg" alt="">
-                        <img src="cnt/rs/3.jpg" alt="" width="605px">
-                    </p>
-                </article>
-                <article>
-                    <h2 id="rachel">Rachel</h2>
-                    <p>
-                        <img src="cnt/rch/1.jpg" alt="">
-                        <img src="cnt/rs/2.jpg" alt="">
-                    </p>
-                </article>
-                <article>
-                    <h2 id="phoebe">Phoebe</h2>
-                    <p>
-                        <img src="cnt/ph/1.jpg" alt="">
-                        <img src="cnt/ph/2.jpg" alt="">
-                        <img src="cnt/ph/3.jpg" alt="">
-                    </p>
-                </article>
-                <article>
-                    <h2 id="monica">Monica</h2>
-                    <p>
-                        <img src="cnt/mon/1.jpg" alt="">
-                        <img src="cnt/mon/2.jpg" alt="">
-                    </p>
-                </article>
-                <article>
-                    <h2 id="joey">Joey</h2>
-                    <p>
-                        <img src="cnt/jo/1.jpg" alt="">
-                        <img src="cnt/jo/2.jpg" alt="">
-                        <img src="cnt/jo/3.jpg" alt="">
-                    </p>
-                </article>
-        </main>
+
+        <div class="pg-content">
+            <main>
+                    <article class="backstage">
+                        <h2>BackStage</h2>
+                        <p>
+                            <img src="cnt/backst/1.jpg" alt="">
+                            <img src="cnt/backst/2.jpg" alt="">
+                            <img src="cnt/backst/3.jpg" alt="">
+                        </p>
+                    </article>
+                    <article>
+                        <h2 id="chandler">Chandler</h2>
+                        <p>
+                            <img src="cnt/chn/1.jpg" alt="">
+                            <img src="cnt/chn/2.jpg" alt="">
+                            <img src="cnt/chn/3.jpg" alt="">
+                        </p>
+                    </article>
+                    <article>
+                        <h2 id="ross">Ross</h2>
+                        <p>
+                            <img src="cnt/rs/1.jpg" alt="">
+                            <img src="cnt/rs/2.jpg" alt="">
+                            <img src="cnt/rs/3.jpg" alt="">
+                        </p>
+                    </article>
+                    <article>
+                        <h2 id="rachel">Rachel</h2>
+                        <p>
+                            <img src="cnt/rch/1.jpg" alt="">
+                            <img src="cnt/rs/2.jpg" alt="">
+                        </p>
+                    </article>
+                    <article>
+                        <h2 id="phoebe">Phoebe</h2>
+                        <p>
+                            <img src="cnt/ph/1.jpg" alt="">
+                            <img src="cnt/ph/2.jpg" alt="">
+                            <img src="cnt/ph/3.jpg" alt="">
+                        </p>
+                    </article>
+                    <article>
+                        <h2 id="monica">Monica</h2>
+                        <p>
+                            <img src="cnt/mon/1.jpg" alt="">
+                            <img src="cnt/mon/2.jpg" alt="">
+                        </p>
+                    </article>
+                    <article>
+                        <h2 id="joey">Joey</h2>
+                        <p>
+                            <img src="cnt/jo/1.jpg" alt="">
+                            <img src="cnt/jo/2.jpg" alt="">
+                            <img src="cnt/jo/3.jpg" alt="">
+                        </p>
+                    </article>
+            </main>
+        </div>
+        <aside class="sidebar">
+            <h2>Quotes</h2>
+            <p>1. Rachel: “I’m not someone who goes after a guy five minutes after he’s divorced.”
+                Monica: “No, you go after them five minutes before they get married.”</p>
+            <p>2. “Marriage. It’s not for everybody.”</p>
+            <p>3. “We were on a break!” </p>
+            <p>4. “They don’t know that we know they know we know.”</p>
+            <p>5. Monica: “Do you have a plan?”
+                Phoebe: “I don’t even have a pla.'”</p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </aside>
     </div>
 
     <footer>
